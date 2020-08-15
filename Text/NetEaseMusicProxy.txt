@@ -1,6 +1,6 @@
-shadowsocks=example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false,udp-elay=false, server_check_url=http://www.apple.com/generate_204, tag=ss-01
-http=music.desperadoj.com:30000, username=Netease Music, password=none, over-tls=false, fast-open=false, udp-relay=false, tag=解锁网易云音乐1
-http=music.desperadoj.com:30002, username=Netease Music, password=none, fast-open=false, udp-relay=false, tag=解锁网易云音乐2
-shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm,password=desperadoj.com, fast-open=false, udp-relay=false, tag=🎧解锁网易云音乐3
-http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag=🎧解锁网易云音乐4
-shadowsocks:30003=music.desperadoj.com(http://shadowsocks:30003=music.desperadoj.com),method=aes-128-gcm, password=desperadoj.com_free_proxy_x80j, fast-open=false, udp-relay=false, tag=🎧解锁网易云音乐5
+shadowsocks=example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false,udp-elay=false, server_check_url=http://www.apple.com/generate_204, tag=Netease
+http=music.desperadoj.com:30000, username=Netease Music, password=none, over-tls=false, fast-open=false, udp-relay=false, tag=网易云音乐1
+http=music.desperadoj.com:30002, username=Netease Music, password=none, fast-open=false, udp-relay=false, tag=网易云音乐2
+shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm,password=desperadoj.com, fast-open=false, udp-relay=false, tag=网易云音乐3
+http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag=网易云音乐4
+shadowsocks:30003=music.desperadoj.com(http://shadowsocks:30003=music.desperadoj.com),method=aes-128-gcm, password=desperadoj.com_free_proxy_x80j, fast-open=false, udp-relay=false, tag=网易云音乐5
